@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 1.5em;
+  margin-top: 0.5em;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  flex: 3 0;
+  justify-content: space-evenly;
+  border: 1px solid #bbdeff;
+  border-radius: 5px;
+  list-style-type: none;
+  margin: 0.5em;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+ul li:last-child {
+  border: none;
+}
+
+li img {
+  width: 5em;
+  height: 5em;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+li div {
+  padding: 1em;
+}
+
+li div:not(:first-child) {
+  flex-basis: 18%;
+}
+
+li select {
+  width: 3em;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+li .remove-button {
+  border-radius: 5px;
+  border: none;
+  padding: 0.5em;
+  color: #00bfff;
+  outline: none;
+}
+
+li .remove-button:hover {
+  color: #1e90ff;
+  cursor: pointer;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 3;
+  height: 20em;
+  border: 1px solid #bbdeff;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.checkout > div {
+  font-size: 1.4em;
+  margin: 1em;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.foods-count {
+  margin-bottom: 1.5em;
+}
+
+.foods-count::before {
+  content: "Count: ";
+  color: grey;
+}
+
+.total-price::before {
+  content: "Price: ";
+  color: grey;
+}
+
+.checkout a {
+  padding: 1em;
+  color: white;
+  background: #00bfff;
+  display: block;
+  width: 99%;
+  border-radius: 5px;
+  text-align: center;
+  justify-self: center;
+}
+
+.checkout a:hover {
+  background: #1e90ff;
+  cursor: pointer;
+}

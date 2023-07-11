@@ -1,0 +1,13 @@
+<div class="container">
+  <button
+    [ngStyle]="{
+    color: color,
+    'font-size.em': fontSizeEm,
+    'width.em': widthEm,
+  }"
+    [type]="type"
+    (onClick)="onClick.emit()"
+  >
+    {{ text }}
+  </button>
+</div>

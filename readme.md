@@ -1,1 +1,1 @@
-# Online Food Store App using Angular, Nodejs, Express, MongoDB
+# Food Delivery App using Angular, Nodejs, Express, MongoDB

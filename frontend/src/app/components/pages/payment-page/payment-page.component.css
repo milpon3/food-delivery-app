@@ -1,0 +1,39 @@
+.container {
+  margin-top: 1em;
+  display: flex;
+  margin: 0 2em 6em 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  width: 35em;
+  margin-right: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.summary > div {
+  display: flex;
+  margin-top: 0.7em;
+}
+
+.summary span {
+  font-size: 1.2em;
+}
+
+.summary h3 {
+  margin: 0 1em 0 0;
+  flex-basis: 5em;
+}
+
+.buttons-container {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  margin: 2em;
+  width: 35em;
+}
